@@ -1,0 +1,9 @@
+/* line 1, ../../../../../../../Trouper.UI/Views/Home/home.scss */
+a {
+  color: green;
+}
+
+/* line 6, ../../../../../../../Trouper.UI/Views/Home/home.scss */
+.title-image {
+  background-image: url("../../mediaheader-image.png/");
+}

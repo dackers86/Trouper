@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trouper.UI", "Trouper.UI\Trouper.UI.csproj", "{62CC2C00-521F-42B0-825B-A836EE232B11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trouper.UI.Tests", "Trouper.UI.Tests\Trouper.UI.Tests.csproj", "{82C6DD36-8BE2-49C1-B78F-B6E0BD8A9787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{B62735A4-E060-475D-A511-8E1F34E26D26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Tests", "Api.Tests\Api.Tests.csproj", "{BD52822B-202C-418B-811C-E7D4AA6335CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62CC2C00-521F-42B0-825B-A836EE232B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62CC2C00-521F-42B0-825B-A836EE232B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62CC2C00-521F-42B0-825B-A836EE232B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62CC2C00-521F-42B0-825B-A836EE232B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C6DD36-8BE2-49C1-B78F-B6E0BD8A9787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C6DD36-8BE2-49C1-B78F-B6E0BD8A9787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C6DD36-8BE2-49C1-B78F-B6E0BD8A9787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C6DD36-8BE2-49C1-B78F-B6E0BD8A9787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B62735A4-E060-475D-A511-8E1F34E26D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62735A4-E060-475D-A511-8E1F34E26D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62735A4-E060-475D-A511-8E1F34E26D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62735A4-E060-475D-A511-8E1F34E26D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD52822B-202C-418B-811C-E7D4AA6335CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD52822B-202C-418B-811C-E7D4AA6335CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD52822B-202C-418B-811C-E7D4AA6335CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD52822B-202C-418B-811C-E7D4AA6335CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

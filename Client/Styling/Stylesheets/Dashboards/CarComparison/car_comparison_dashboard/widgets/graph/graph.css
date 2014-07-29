@@ -1,0 +1,51 @@
+/* line 14, ../../../../../../../../../Dashboards/CarComparison/car_comparison_dashboard/widgets/graph/graph.scss */
+.widget-graph {
+  background-color: #dc5945;
+  position: relative;
+}
+/* line 20, ../../../../../../../../../Dashboards/CarComparison/car_comparison_dashboard/widgets/graph/graph.scss */
+.widget-graph svg {
+  position: absolute;
+  opacity: 0.4;
+  fill-opacity: 0.4;
+  left: 0px;
+  top: 0px;
+}
+/* line 28, ../../../../../../../../../Dashboards/CarComparison/car_comparison_dashboard/widgets/graph/graph.scss */
+.widget-graph .title, .widget-graph .value {
+  position: relative;
+  z-index: 99;
+}
+/* line 33, ../../../../../../../../../Dashboards/CarComparison/car_comparison_dashboard/widgets/graph/graph.scss */
+.widget-graph .title {
+  color: rgba(255, 255, 255, 0.7);
+}
+/* line 37, ../../../../../../../../../Dashboards/CarComparison/car_comparison_dashboard/widgets/graph/graph.scss */
+.widget-graph .more-info {
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 0;
+}
+/* line 44, ../../../../../../../../../Dashboards/CarComparison/car_comparison_dashboard/widgets/graph/graph.scss */
+.widget-graph .x_tick {
+  position: absolute;
+  bottom: 0;
+}
+/* line 47, ../../../../../../../../../Dashboards/CarComparison/car_comparison_dashboard/widgets/graph/graph.scss */
+.widget-graph .x_tick .title {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.4);
+  opacity: 0.5;
+  padding-bottom: 3px;
+}
+/* line 55, ../../../../../../../../../Dashboards/CarComparison/car_comparison_dashboard/widgets/graph/graph.scss */
+.widget-graph .y_ticks {
+  font-size: 20px;
+  fill: rgba(0, 0, 0, 0.4);
+  fill-opacity: 1;
+}
+/* line 61, ../../../../../../../../../Dashboards/CarComparison/car_comparison_dashboard/widgets/graph/graph.scss */
+.widget-graph .domain {
+  display: none;
+}

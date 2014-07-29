@@ -1,0 +1,9 @@
+/* line 1, ../../../../../../../../../Dashboards/CarComparison/car_comparison_dashboard/widgets/iframe/iframe.scss */
+.widget-iframe {
+  padding: 3px 0px 0px 0px !important;
+}
+/* line 4, ../../../../../../../../../Dashboards/CarComparison/car_comparison_dashboard/widgets/iframe/iframe.scss */
+.widget-iframe iframe {
+  width: 100%;
+  height: 100%;
+}

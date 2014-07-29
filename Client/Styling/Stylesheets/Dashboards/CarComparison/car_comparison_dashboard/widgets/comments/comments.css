@@ -1,0 +1,21 @@
+/* line 12, ../../../../../../../../../Dashboards/CarComparison/car_comparison_dashboard/widgets/comments/comments.scss */
+.widget-comments {
+  background-color: #eb9c3c;
+}
+/* line 16, ../../../../../../../../../Dashboards/CarComparison/car_comparison_dashboard/widgets/comments/comments.scss */
+.widget-comments .title {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 15px;
+}
+/* line 21, ../../../../../../../../../Dashboards/CarComparison/car_comparison_dashboard/widgets/comments/comments.scss */
+.widget-comments .name {
+  padding-left: 5px;
+}
+/* line 25, ../../../../../../../../../Dashboards/CarComparison/car_comparison_dashboard/widgets/comments/comments.scss */
+.widget-comments .comment-container {
+  display: none;
+}
+/* line 29, ../../../../../../../../../Dashboards/CarComparison/car_comparison_dashboard/widgets/comments/comments.scss */
+.widget-comments .more-info {
+  color: rgba(255, 255, 255, 0.7);
+}
