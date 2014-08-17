@@ -1,20 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-
-namespace Trouper.UI.Client.Styling.Base
-{
-    public class reset : Controller
-    {
-        //
-        // GET: /reset/
-
-        public ActionResult Index()
-        {
-            return View();
-        }
-
-    }
+﻿body{
+	margin: 0;
 }

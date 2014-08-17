@@ -1,0 +1,27 @@
+﻿@import "../../../../Client/SASS/Utils/_variables";
+
+.hero-container{
+	text-align: center;
+	font-family: $main-font-family;
+	color: white;
+
+	.hero-title{
+		width: 100%;
+		padding: 7% 0% 0% 0%;
+		font-size: $medium-font-size;
+	}
+
+	.hero-sub-title{
+		width: 100%;
+	    padding: 3% 0%;
+		font-size: $large-font-size;
+	}
+
+	.hero-button{
+		border: 2px solid white;
+		background-color: transparent;
+		padding: 2% 8%;
+		color: white;
+	}
+
+}

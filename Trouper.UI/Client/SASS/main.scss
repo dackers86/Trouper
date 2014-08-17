@@ -1,0 +1,29 @@
+﻿// Base
+@import "Base/_normalise";
+@import "Base/_reset";
+@import "Base/_typography";
+
+// Components
+@import "Components/_carousel";
+@import "Components/_media";
+@import "Components/_thumbnails";
+
+// Layout
+@import "Layout/_footer";
+@import "Layout/_footer";
+@import "Layout/_grid";
+@import "Layout/_header";
+@import "Layout/_sidebar";
+
+//Utils
+@import "Utils/_functions";
+@import "Utils/_helpers";
+@import "Utils/_reset";
+@import "Utils/_variables";
+
+
+
+body{
+	font-family: $main-font-family;
+	color: white;
+}

@@ -1,20 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿
+//Colours
+$white: #FFFFFF;
 
-namespace Trouper.UI.Client.Styling.Base
-{
-    public class reset : Controller
-    {
-        //
-        // GET: /reset/
+//Font
+$main-font-family: 'Source Sans Pro';
+$medium-font-size: 20px;
+$large-font-size: 46px;
 
-        public ActionResult Index()
-        {
-            return View();
-        }
 
-    }
-}
+//Layout
+$full-width: 100%;

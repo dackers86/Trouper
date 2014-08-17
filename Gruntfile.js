@@ -10,14 +10,15 @@ grunt.initConfig({
     all: {
       files: [
                 { cwd: 'Trouper.UI/Client/SASS', src: ['**/*.scss', '!_*/**/*.scss', '!*/**/_*.scss'], dest: 'Trouper.UI/Client/Styles', ext: '.css', expand: true },
-                { cwd: 'Trouper.UI/Views/Partials/Components', src: ['**/*.scss', '!_*/**/*.scss', '!*/**/_*.scss'], dest: 'Trouper.UI/Views/Partials/Components', ext: '.css', expand: true }
+                { cwd: 'Trouper.UI/Views/Partials/Components', src: ['**/*.scss', '!_*/**/*.scss', '!*/**/_*.scss'], dest: 'Trouper.UI/Views/Partials/Components', ext: '.css', expand: true },
+                { cwd: 'Trouper.UI/Views/Shared/', src: ['**/*.scss', '!_*/**/*.scss', '!*/**/_*.scss'], dest: 'Trouper.UI/Views/Shared', ext: '.css', expand: true }
              ]
       }
     },
   watch: {
       css: {
         files: '**/*.scss',
-        tasks: ['compass']
+        tasks: ['sass']
       }
     }
 

@@ -1,0 +1,17 @@
+﻿@import "../../../Client/SASS/Utils/_variables";
+
+.cover-background{
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),
+	url('../../../../media/header-image.png') no-repeat;
+	background-size: cover;
+	width: $full-width;
+	margin: 0;
+
+		&:before{
+			background: black;
+			opacity: 0.7;
+		}
+}
